@@ -1,31 +1,33 @@
 # Idle Empires
 
-## Documentation
+## Features
+- Engaging idle gameplay
+- Resource management
+- Various upgrades and enhancements
+- Multiplayer options available
 
-Idle Empires is a game designed for [description of the game].
+## Gameplay Instructions
+1. Start by gathering resources.
+2. Invest in upgrades to improve efficiency.
+3. Explore various strategies to maximize resource generation.
+4. Keep upgrading and progressing through the game.
 
-## Setup Instructions
+## Upgrades Table
+| Upgrade Name | Description          | Cost    | Effect                |
+|--------------|----------------------|---------|-----------------------|
+| Basic Upgrade| Increases resource generation by 10% | 100 coins | +10% resource generation |
+| Advanced Upgrade| Enhances efficiency further | 500 coins | +25% resource generation |
+| Final Upgrade| Caps resource generation limits | 1000 coins | +50% resource generation |
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/rahalmustapha36-byte/Idle-Empires.git
-   ```
+## Deployment Options
+- **Local Deployment:** Clone the repository and run locally.
+- **Cloud Deployment:** Use cloud service providers for hosting and scaling.
 
-2. **Navigate to the project directory**:
-   ```bash
-   cd Idle-Empires
-   ```
+## Contribution Guidelines
+1. Fork the repository.
+2. Create a new branch for your feature/bugfix.
+3. Submit a pull request with a clear description of your changes.
+4. Ensure that your code follows the project's coding standards and includes tests where applicable.
 
-3. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-4. **Run the application**:
-   ```bash
-   npm start
-   ```
-
-## Contributing
-
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
