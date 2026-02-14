@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Idle Empires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- En-tête -->
+        <div class="header">
+            <h1>👑 Idle Empires</h1>
+            <p class="version">v1.0.0</p>
+        </div>
+
+        <!-- Affichage principal -->
+        <div class="main-display">
+            <div class="currency-display">
+                <span class="currency-icon">💰</span>
+                <h2 id="coins">0</h2>
+                <p>Pièces</p>
+            </div>
+            <div class="per-second">
+                <span id="per-second">+0/s</span>
+            </div>
+        </div>
+
+        <!-- Bouton de clic principal -->
+        <button id="click-button" class="click-button">
+            <span class="click-text">CLIQUER!</span>
+            <span class="click-value">+1</span>
+        </button>
+
+        <!-- Section Upgrades -->
+        <div class="upgrades-section">
+            <h3>⚡ Upgrades</h3>
+            <div id="upgrades-container" class="upgrades-grid">
+                <!-- Les upgrades seront générés ici -->
+            </div>
+        </div>
+
+        <!-- Statistiques -->
+        <div class="stats-section">
+            <h3>📊 Stats</h3>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-label">Total gagnés:</span>
+                    <span id="total-earned" class="stat-value">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Clics:</span>
+                    <span id="total-clicks" class="stat-value">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bouton Reset -->
+        <button id="reset-button" class="reset-button">🔄 Réinitialiser la partie</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
